@@ -1,0 +1,97 @@
+*{
+		box-sizing: border-box;
+		font-family: Calibri, sans-serif;
+
+	}
+	/****basic styles***/
+	body{
+		margin: 15;
+		padding: 0;
+
+	}
+	h4{
+		border: 1px solid black;
+		float: right;
+		width: 33%;
+		margin: -1px;
+		text-align: center;
+		clear: right;
+		font-size: 1.25em;
+
+	}
+	p{
+		padding: 10px;
+
+	}
+	#heading{
+		text-align: center;
+		font-size: 1.75em;
+	}
+	
+
+	.box{
+		margin: 7.5px;
+		padding: 0;
+		border: 1px solid black;
+		width: 31%;
+		float: left;
+		background-color: dimgrey;
+
+
+	}
+	
+	#milk{
+		background-color: cadetblue;
+		
+
+	}
+	
+	#beef{
+		background-color: indianred;
+	}
+	#chicken{
+		background-color: greenyellow;
+	}
+		
+	/***large screen**/
+	@media(min-width: 992px){
+
+	.box{
+
+		margin: 7.5px;
+		padding: 0;
+		border: 1px solid black;
+		width: 31%;
+		float: left;
+			}
+	}
+
+	/****tablet style***/
+	@media(max-width: 991px) and (min-width: 768px){
+		.box{
+
+		margin: 7.5px;
+		padding: 0;
+		border: 1px solid orange;
+		width: 48%;
+		float: left;
+			}
+		#chickenbox{
+			width: 98%;
+		}
+
+
+	}
+
+	/***mobile style***/
+	@media(max-width: 767px){
+		.box{
+
+		margin: 7.5px;
+		padding: 0;
+		border: 1px solid green;
+		width: 95%;
+		float: left;
+			}
+
+	}
